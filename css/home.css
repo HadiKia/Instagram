@@ -1,0 +1,131 @@
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.2rem;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+}
+
+.headerTop .instagramLogo {
+  font-family: "Billabong";
+  font-size: 2.2rem;
+}
+
+.headerTop .direct {
+  font-size: 1.5rem;
+  color: var(--bColor);
+  text-decoration: none;
+}
+
+.storyContainer {
+  display: flex;
+  overflow: hidden;
+  padding-left: .4em;
+  margin-top: 4em;
+}
+
+.userProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 .35em;
+}
+
+.userProfile img {
+  width: 65px;
+  border-radius: 50%;
+  border: 2px solid crimson;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.userProfile span {
+  font-size: .8rem;
+  padding-top: 2px;
+  text-align: center;
+}
+
+.yourProfile img {
+  border-color: gray;
+}
+
+.closeFriend img {
+  border-color: #3dc925;
+}
+
+.postId,
+.postId2 {
+  display: flex;
+  align-items: center;
+  padding: .4em;
+  margin-top: .5em;
+  border-top: 1px solid rgb(220, 220, 220);
+}
+
+.postId .userProfile,
+.postId2 .userProfile {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.postId .userProfile img,
+.postId2 .userProfile img {
+  width: 40px;
+  border-width: 1px;
+  padding: 2px;
+  margin-right: 5px;
+}
+
+.postId .userProfile span,
+.postId2 .userProfile span {
+  font-size: 0.9rem;
+}
+
+.more {
+  margin: 0 0 0 auto;
+  padding-right: .7em;
+  font-size: 1.2rem;
+}
+
+.postContainer img {
+  width: 100%;
+}
+
+.postIcon {
+  padding: .5em .7em;
+  font-size: 1.3rem;
+  display: flex;
+  gap: .5em;
+  color: var(--bColor);
+}
+
+.postIcon i {
+  cursor: pointer;
+}
+
+.like,
+.save {
+  transition: all .3s ease-in-out;
+}
+
+.save {
+  margin: 0 0 0 auto;
+  padding-right: .2em;
+}
+
+.postCaption {
+  padding-left:.8em;
+  font-size: 1rem;
+  line-height: 1.5em;
+}
+
+.postCaption p:nth-child(3) {
+  font-size: 0.8rem;
+  color: gray;
+  cursor: pointer;
+}

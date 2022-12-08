@@ -1,0 +1,107 @@
+.directHeader {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.directHeaderTop {
+  display: flex;
+  padding: .7em 0;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  width: 95%;
+}
+
+.back {
+  margin-left: 15px;
+  color: var(--bColor);
+}
+
+.idAccount {
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--bColor);
+}
+
+.videoPlus {
+  margin: 0 0 0 auto;
+  cursor: pointer;
+  color: var(--bColor);
+}
+
+.plus {
+  margin-right: 15px;
+  cursor: pointer;
+  color: var(--bColor);
+}
+
+.directSearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.mainTop {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5em auto;
+  font-size: 1rem;
+}
+
+.pMessages {
+  color: var(--bColor);
+  cursor: pointer;
+}
+
+.pRequests {
+  color: #0095F6;
+  cursor: pointer;
+}
+
+.messages{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 93%;
+  margin-bottom: 1em;
+}
+
+.pvMessage {
+  width: 100%;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+  cursor: pointer;
+  gap: 1em;
+}
+
+.pvMessage img {
+  width: 55px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  padding: 2px;
+}
+
+.pvId {
+  font-size: 1rem;
+  color: var(--bColor);
+}
+
+.pvLastSeen {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.pvMessage i {
+  font-size: 1.4rem;
+  color: var(--bColor);
+  margin: 0 0 0 auto;
+  padding-right: 0.5em;
+}

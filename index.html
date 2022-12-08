@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Instagram</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/css/all.css">
+</head>
+
+<body>
+    <div class="mobile">
+        <header>
+            <div class="headerTop">
+                <p class="instagramLogo">instagram</p>
+                <a href="direct.html" class="fal fa-paper-plane direct"></a>
+            </div>
+            <nav class="storyContainer">
+                <div class="userProfile yourProfile">
+                    <img src="images/profile/profile1.jpg" alt=""><span>Your story</span>
+                </div>
+                <div class="userProfile">
+                    <img src="images/profile/profile2.jpg" alt=""><span>alex.g4</span>
+                </div>
+                <div class="userProfile">
+                    <img src="images/profile/profile3.jpg" alt=""><span>jen.kara</span>
+                </div>
+                <div class="userProfile closeFriend">
+                    <img src="images/profile/profile4.jpg" alt=""><span>mikeco</span>
+                </div>
+                <div class="userProfile">
+                    <img src="images/profile/profile5.jpg" alt=""><span>margottli</span>
+                </div>
+                <div class="userProfile">
+                    <img src="images/profile/profile6.jpg" alt=""><span>j.roams</span>
+                </div>
+                <div class="userProfile">
+                    <img src="images/profile/profile8.jpg" alt=""><span>andres.v</span>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="post">
+                <div class="postId">
+                    <div class="userProfile">
+                        <img src="images/profile/profile2.jpg" alt=""><span>alex.g4</span>
+                    </div>
+                    <i class="fal fa-ellipsis-v more"></i>
+                </div>
+                <div class="postContainer">
+                    <img src="images/post.jpg" alt="cat" ondblclick="likePost(this)">
+                </div>
+                <div class="postIcon">
+                    <i class="fal fa-heart like likePost1" onclick="likePost(this)"></i>
+                    <i class="fal fa-comment"></i>
+                    <i class="fal fa-paper-plane"></i>
+                    <i class="fal fa-bookmark save" onclick="savePost(this)"></i>
+                </div>
+                <div class="postCaption">
+                    <p class="likeNum1">359 likes</p>
+                    <p><strong>alex.g4</strong> say hello to my cat!</p>
+                    <p>View all 3 comments</p>
+                </div>
+
+                <section class="post">
+                    <div class="postId2">
+                        <div class="userProfile">
+                            <img src="images/profile/profile4.jpg"><span>mikeco</span>
+                        </div>
+                        <i class="fal fa-ellipsis-v more"></i>
+                    </div>
+                    <div class="postContainer">
+                        <img src="images/explore/post1.jpg" alt="product">
+                    </div>
+                    <div class="postIcon">
+                        <i class="fal fa-heart like likePost2" onclick="likePost(this)"></i>
+                        <i class="fal fa-comment"></i>
+                        <i class="fal fa-paper-plane"></i>
+                        <i class="fal fa-bookmark save" onclick="savePost(this)"></i>
+                    </div>
+                    <div class="postCaption">
+                        <p class="likeNum2">450 likes</p>
+                        <p><strong>alex.g4</strong> Yo guys I am back</p>
+                        <p>View all 12 comments</p>
+                    </div>
+                </section>
+        </main>
+
+        <footer>
+            <nav class="tabBar">
+                <a href="index.html" class="fas fa-home"></a>
+                <a href="explore.html" class="fal fa-search"></a>
+                <i class="fal fa-plus-square"></i>
+                <i class="fal fa-heart"></i>
+                <a href="editProfile.html"> <img src="images/profile/profile1.jpg" alt=""></a>
+            </nav>
+        </footer>
+    </div>
+    <script src="js/home.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+@import url("home.css");
+@import url("explore.css");
+@import url("direct.css");
+@import url("editProfile.css");
+
+@font-face {
+  font-family: Billabong;
+  src: url("../fonts/Billabong.ttf");
+}
+
+@font-face {
+  font-family: ios;
+  src: url("../fonts/SF-Pro.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: ios;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f5f5f5;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+:root {
+  --wColor: #f5f5f5;
+  --bColor: #2d2d2d;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.mobile {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: auto;
+}
+
+main {
+  margin-bottom: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  padding: 0.6rem 0;
+  margin-top: 0.4rem;
+  border-top: 1px solid rgb(220, 220, 220);
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.tabBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.tabBar img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.tabBar a {
+  text-decoration: none;
+  color: var(--bColor);
+}
+
+.tabBar>* {
+  cursor: pointer;
+}
+
+
+@media (min-width : 768px) {
+  .mobile {
+    position: relative;
+    width: 320px;
+    height: 660px;
+    border: 5px solid var(--bColor);
+    border-radius: 2em;
+  }
+
+  .headerTop {
+    position: absolute;
+  }
+
+  .userProfile img {
+    width: 60px;
+  }
+
+  .userProfile span {
+    font-size: .7rem;
+  }
+  .pvMessage img {
+    width: 50px;
+  }
+
+  main {
+    margin-bottom: 0em;
+  }
+
+  footer {
+    position: sticky;
+    bottom: 0;
+  }
+
+  .profileImage img {
+    width: 75px;
+    margin-right: 1.5em;
+  }
+
+  .informationPage {
+    font-size: .9rem;
+  }
+
+  .bioPage {
+    font-size: .9rem;
+  }
+
+  .highlightBox img {
+    width: 50px;
+  }
+
+  .part i {
+    font-size: 1rem;
+  }
+  .editProfilePost {
+    grid-template-rows: repeat(2, 1fr);
+  }
+}

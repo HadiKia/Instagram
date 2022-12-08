@@ -1,0 +1,180 @@
+.editProfileHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.editProfileHeaderTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 1.2em 1em;
+  gap: 20px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+
+.idAccountEditProfile {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: var(--bColor);
+  cursor: pointer;
+}
+
+.editProfileHeader i {
+  font-size: 1.4rem;
+  color: var(--bColor);
+}
+
+.editProfileHeaderTop p i {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.squareProfile {
+  margin: 0 0 0 auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.profile {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1em;
+}
+
+.profileImage img {
+  width: 85px;
+  border-radius: 50%;
+  margin-left: 1em;
+  border: 2px solid gray;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.informationPage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  text-align: center;
+  margin-right: 2em;
+  gap: 1em;
+}
+
+.value {
+  font-weight: bold;
+}
+
+.title {
+  color: gray;
+}
+
+.bioPage {
+  width: 100%;
+  padding: 1em;
+  font-size: 1rem;
+  color: var(--bColor);
+}
+
+.editProfile {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5em;
+}
+
+.editProfileButton {
+  width: 85%;
+  background-color: #f4f4f4;
+  color: var(--bColor);
+  border: none;
+  padding: .6em;
+  font-size: .9rem;
+  border-radius: .5em;
+  cursor: pointer;
+}
+
+.suggest {
+  background-color: #f4f4f4;
+  padding: .25em;
+  border-radius: .3em;
+  cursor: pointer;
+}
+
+.highlight {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  gap: 1.7em;
+  margin-top: 2em;
+  font-size: 0.7rem;
+  overflow: hidden;
+  padding-left: 1em;
+}
+
+.highlightBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .7em;
+}
+
+.highlightBox img {
+  width: 65px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.highlightLabel {
+  color: var(--bColor);
+  font-size: .8rem;
+}
+
+.part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  cursor: pointer;
+}
+
+.part i {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.part i:first-child {
+  color: var(--bColor);
+}
+
+.editProfilePost {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2.5px;
+}
+
+.postHome {
+  width: 100%;
+  cursor: pointer;
+}
+
+.postHome:hover {
+  filter: brightness(80%);
+}
